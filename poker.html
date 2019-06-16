@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../6.10/jQuery.js"></script>
+    <script src="poker.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 800px;
+            height: 600px;
+            position:absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: #00c1de;
+        }
+        .poke{
+            width: 90px;
+            height: 120px;
+            background: #36a8fe;
+            position: absolute;
+            left: 350px;
+            top: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+        }
+        .active{
+            border: #e1ffb8;
+        }
+        .rightpoke{
+
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border: none;
+            outline: none;
+            background: #f692ff;
+            color: #FFFFFF;
+            border-radius: 5px;
+            position: absolute;
+            left: 360px;
+            bottom: 40px;
+
+        }
+        .leftbtn{
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <button class="right">
+        &gt;
+    </button>
+    <button class="leftbtn">
+        &lt;
+    </button>
+
+</div>
+</body>
+</html>
